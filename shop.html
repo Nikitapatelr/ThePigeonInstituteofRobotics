@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+       <link href="style.css" rel="stylesheet" type="text/css"/>
+
+       <title>Shop - The Pigeon Institute of Robotics</title>
+       <link rel="shortcut icon" type="image/x-icon" href="tablogo.png" />
+      
+    </head>
+<body>
+
+    <!-- Navbar -->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+      <a class="nav-link" style="color: white;" href="index.html #home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;" href="index.html #about">ABOUT</a>
+        </li>
+      <li class="nav-item">
+      <a class="nav-link" style="color: white;" href="services.html">SERVICES</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" style="color: white;" href="shop.html">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;" href="events.html">EVENTS</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="people.html">PEOPLE</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="career.html">CAREER</a>
+         </li>
+      <li class="nav-item">
+      <a class="nav-link" style="color: white;" href="index.html #contact">CONTACT</a>
+      </li>
+      </ul>
+        
+  <!-- Shop Div -->
+      <div id="shop" class="shop text-center">
+        <p class="topic">SHOP</p>
+           
+            <!-- Shopping Item 1 - Basic Robo Kit-->
+            <div class="card m-3" style="width: 18rem;">
+            <img src="media/basicrobokit.png" class="card-img-top" alt="Basic robo kit">
+            <div class="card-body">
+            <h5 class="card-title">Basic Robo Kit</h5>
+            <p class="card-text">Get it for <b>₹5000.00</b> only.</p>
+            <a href="#" class="btn btn-light"   data-toggle="modal" data-target="#robokitmodal">View</a>
+            </div>
+            </div>
+        
+            <!-- View Modal for Shopping Item 1 - Basic Robo Kit-->
+            <div class="modal fade" id="robokitmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Basic Robo Kit</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <img src="media/basicrobokit.png" alt="" width="250" height="200">
+            <input type="number" placeholder="Quantity" min="0">
+            <b>₹5000.00</b>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal" data-toggle="modal" data-target="#robokitbuymodal">Buy now</button>
+            </div>
+            </div>
+            </div>
+           </div>
+
+        <!-- Contact Modal for Shopping Item 1 - Basic Robo Kit-->
+          <div class="modal fade" id="robokitbuymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Sorry, we are not accepting online payments currently. Contact us at +91 73597 07466 to buy this.
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card m-3" style="width: 18rem;">
+            <img src="media/drone.png" class="card-img-top" alt="Drone">
+            <div class="card-body">
+              <h5 class="card-title">Drone</h5>
+              <p class="card-text">Get it for <b>₹6500.00</b> only.</p>
+              <a href="#" class="btn btn-light"  data-toggle="modal" data-target="#dronemodal">View</a>
+            </div>
+          </div>
+        
+          <div class="modal fade" id="dronemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Drone</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="media/drone.png" alt="" width="250" height="200">
+                    <input type="number" placeholder="Quantity" min="0">
+                    <b>₹6500.00</b>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-dismiss="modal" data-toggle="modal" data-target="#dronebuymodal">Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="modal fade" id="dronebuymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Sorry, we are not accepting online payments currently. Contact us at +91 73597 07466 to buy this.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
